@@ -1,9 +1,7 @@
-package skill_level1;
+package Programmers.skill_level1;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
 
 public class Skill_Level_Q2 {
     public static void main(String args[]){

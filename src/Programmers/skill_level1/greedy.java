@@ -1,4 +1,4 @@
-package skill_level1;
+package Programmers.skill_level1;
 
 import java.util.ArrayList;
 import java.util.Arrays;

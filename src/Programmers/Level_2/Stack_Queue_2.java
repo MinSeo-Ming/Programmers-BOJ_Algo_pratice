@@ -1,7 +1,6 @@
-package Level_2;
+package Programmers.Level_2;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Stack_Queue_2 {
     //주식거래

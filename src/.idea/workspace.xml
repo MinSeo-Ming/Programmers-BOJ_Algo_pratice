@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1f850e3-4f7b-498d-920b-c12ae53e22fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level_2/Stack_Queue_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Level_2/Stack_Queue_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALGO/Level_2/Stack_Queue_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALGO/Level_2/Stack_Queue_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level_1/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/Level_1/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level_2/Stack_Queue_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/Level_2/Stack_Queue_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level_2/Stack_Queue_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/Level_2/Stack_Queue_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_level1/Skill_Level1_Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/skill_level1/Skill_Level1_Q1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_level1/Skill_Level_Q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/skill_level1/Skill_Level_Q2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_level1/greedy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/skill_level1/greedy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,22 +52,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Level_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Stack_Queue_2">
-    <configuration name="Skill_Level1_Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="skill_level1.Skill_Level1_Q1" />
+  <component name="RunManager" selected="Application.Star_2447">
+    <configuration name="Fact_10872" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaekJoon.Refactor.Fact_10872" />
       <module name="ALGO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="skill_level1.*" />
+          <option name="PATTERN" value="BaekJoon.Refactor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,11 +78,11 @@
       </method>
     </configuration>
     <configuration name="Stack_Queue_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Level_2.Stack_Queue_1" />
+      <option name="MAIN_CLASS_NAME" value="Programmers.Level_2.Stack_Queue_1" />
       <module name="ALGO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Level_2.*" />
+          <option name="PATTERN" value="Programmers.Level_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,11 +91,24 @@
       </method>
     </configuration>
     <configuration name="Stack_Queue_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Level_2.Stack_Queue_2" />
+      <option name="MAIN_CLASS_NAME" value="Programmers.Level_2.Stack_Queue_2" />
       <module name="ALGO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Level_2.*" />
+          <option name="PATTERN" value="Programmers.Level_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Star_2447" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaekJoon.Refactor.Star_2447" />
+      <module name="ALGO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BaekJoon.Refactor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +117,11 @@
       </method>
     </configuration>
     <configuration name="greedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="skill_level1.greedy" />
+      <option name="MAIN_CLASS_NAME" value="Programmers.skill_level1.greedy" />
       <module name="ALGO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="skill_level1.*" />
+          <option name="PATTERN" value="Programmers.skill_level1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,25 +129,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Star_2447" />
+        <item itemvalue="Application.Fact_10872" />
         <item itemvalue="Application.Stack_Queue_2" />
         <item itemvalue="Application.Stack_Queue_1" />
         <item itemvalue="Application.greedy" />
-        <item itemvalue="Application.Skill_Level1_Q1" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +160,8 @@
       <updated>1599322806407</updated>
       <workItem from="1599322807580" duration="12000" />
       <workItem from="1599322841331" duration="868000" />
-      <workItem from="1599374300946" duration="4358000" />
+      <workItem from="1599374300946" duration="5938000" />
+      <workItem from="1599443751962" duration="8357000" />
     </task>
     <servers />
   </component>
@@ -161,26 +181,54 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1599445075119">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599445075119" />
+    <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1599449810039">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599449810039" />
     <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1599322818650">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="805" y="311" key="FileChooserDialogImpl/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599322818650" />
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1599378209149">
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1599452136837">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599378209149" />
-    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1599378209149">
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599452136837" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1599452136837">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.center/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599378209149" />
-    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1599378209149">
+    <state width="2005" height="305" key="GridCell.Tab.0.center/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599452136837" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1599452136837">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.left/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599378209149" />
-    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1599378209149">
+    <state width="2005" height="305" key="GridCell.Tab.0.left/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599452136837" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1599452136837">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.right/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599378209149" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599452136837" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1599450928093">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599450928093" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1599450928093">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.center/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599450928093" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1599450928093">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.left/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599450928093" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1599450928093">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.right/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599450928093" />
+    <state x="681" y="259" key="run.anything.popup" timestamp="1599450148916">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="681" y="259" key="run.anything.popup/2560.353.1920.1030/0.0.2048.1112@0.0.2048.1112" timestamp="1599450148916" />
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1599375036066">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

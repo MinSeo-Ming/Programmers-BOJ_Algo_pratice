@@ -1,4 +1,4 @@
-package Level_2;
+package Programmers.Level_2;
 
 public class Stack_Queue_1 {
     //주식거래

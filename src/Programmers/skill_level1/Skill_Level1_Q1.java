@@ -1,7 +1,4 @@
-package skill_level1;
-
-import java.util.HashMap;
-import java.util.Map;
+package Programmers.skill_level1;
 
 public class Skill_Level1_Q1 {
     public static void main(String args[]){
