@@ -1,4 +1,4 @@
-package BaekJoon.Stars;
+package BaekJoon;
 
 import java.io.*;
 
