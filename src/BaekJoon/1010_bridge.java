@@ -13,7 +13,7 @@ public class Main {
 			int sec= sc.nextInt();
 			System.out.println(combi(sec,fir));
 		}
-    sc.close();
+    		sc.close();
 		
 	}
 	
