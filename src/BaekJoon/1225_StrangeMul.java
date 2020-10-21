@@ -1,43 +1,28 @@
-import java.util.*;
-import java.lang.*;
-
-class Main {
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in); 
-
-    List<Integer> sec = new ArrayList<Integer>();
-
-    int fir_num = sc.nextInt();
-    int sec_num = sc.nextInt();
-    int temp =0;
-
-    while(fir_num>9){
-      temp = fir_num%10;
-      fir.add(temp);
-      fir_num = fir_num/10;
-
-    }
-    fir.add(fir_num);
-
-    while(sec_num>9){
-      temp = sec_num%10;
-      sec.add(temp);
-      sec_num = sec_num/10;
-
-    }
-    sec.add(sec_num);
-    int temp2 =0;
-
-    long result =0;
-    for(int i=0; i<fir.size(); i++){
-      temp= fir.get(i);
-      for(int j =0; j<sec.size(); j++){
-        temp2 =sec.get(j);
-        result += temp*temp2;
-      }
-
-    }
-    System.out.println(result);
-    
-  }
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+ 
+class Main{
+    public static void main(String args[]) throws IOException{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        String fir = st.nextToken();
+        String sec = st.nextToken();
+        
+        String fir_num[]=fir.split("");
+        String sec_num[]=sec.split("");
+        int n = fir_num.length;
+        int m = sec_num.length;
+        long sumA=0,sumB=0;
+        for(int i = 0 ; i < n ; i++){
+            sumA+=Integer.parseInt(fir_num[i]);
+        }
+        for(int i = 0 ; i < m ; i++){
+            sumB+=Integer.parseInt(sec_num[i]);
+        }
+        
+        long result = sumA*sumB;
+        System.out.println(result);
+    }    
 }
