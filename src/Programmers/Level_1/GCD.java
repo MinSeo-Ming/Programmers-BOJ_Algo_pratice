@@ -1,0 +1,21 @@
+class Solution {
+    public int[] solution(int n, int m) {
+        int[] answer = new int[2];
+        if(n <m)
+            answer[0]=gcd(m,n);
+        else
+            answer[0]=gcd(n,m);
+        answer[1]= n*m/answer[0];
+        
+        return answer;
+    }
+    int gcd(int a, int b){
+        int n ;
+        while(b!=0){
+            n = a%b;
+            a=b;
+            b=n;
+        }
+        return a;
+    }
+}
