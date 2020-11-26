@@ -1,0 +1,10 @@
+numbers = list(map(int, input().split()))
+
+if numbers[0] +numbers[1] == numbers[2]:
+    print(f'{numbers[0]}+{numbers[1]}={numbers[2]}')
+elif numbers[0] -numbers[1] == numbers[2]:
+    print(f'{numbers[0]}-{numbers[1]}={numbers[2]}')
+elif numbers[0] *numbers[1] == numbers[2]:
+    print(f'{numbers[0]}*{numbers[1]}={numbers[2]}')
+elif numbers[0]//numbers[1] == numbers[2]:
+    print(f'{numbers[0]}/{numbers[1]}={numbers[2]}')
